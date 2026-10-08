@@ -1,0 +1,28 @@
+{
+  "name": "progress-board",
+  "version": "0.1.0",
+  "description": "A pane showing every task and subagent as a colored progress bar with percentage and estimated time left",
+  "author": {
+    "name": "Rain Guo"
+  },
+  "license": "MIT",
+  "types": "./types/index.d.ts",
+  "userConfig": {
+    "wrapText": {
+      "type": "boolean",
+      "title": "Wrap long descriptions",
+      "description": "Show the full text of every task, agent, workflow and tool call on several lines instead of cutting it to one line",
+      "default": false
+    }
+  },
+  "repository": "https://github.com/ewxgwy1987/claude-code-progress-board",
+  "homepage": "https://github.com/ewxgwy1987/claude-code-progress-board#readme",
+  "keywords": [
+    "claude-code",
+    "mod",
+    "progress",
+    "tasks",
+    "subagents",
+    "workflows"
+  ]
+}

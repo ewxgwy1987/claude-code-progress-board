@@ -1,0 +1,30 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "claude-code-progress-board",
+  "description": "A pane showing every task and subagent as a colored progress bar with percentage and estimated time left",
+  "owner": {
+    "name": "Rain Guo"
+  },
+  "plugins": [
+    {
+      "name": "progress-board",
+      "source": "./",
+      "description": "A pane showing every task and subagent as a colored progress bar with percentage and estimated time left",
+      "version": "0.1.0",
+      "author": {
+        "name": "Rain Guo"
+      },
+      "license": "MIT",
+      "keywords": [
+        "claude-code",
+        "mod",
+        "progress",
+        "tasks",
+        "subagents",
+        "workflows"
+      ],
+      "repository": "https://github.com/ewxgwy1987/claude-code-progress-board",
+      "homepage": "https://github.com/ewxgwy1987/claude-code-progress-board#readme"
+    }
+  ]
+}

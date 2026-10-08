@@ -1,0 +1,10 @@
+# Laid in by Claude Code at every load: its own API declarations for this build
+.claude-plugin/types/
+node_modules/
+*.log
+.DS_Store
+Thumbs.db
+*.tsbuildinfo
+coverage/
+.vscode/
+.idea/
