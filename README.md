@@ -44,6 +44,8 @@ Newest first · times are start or finish · estimates: median of 42 past durati
 - A Claude Code build that supports function-hook plugins (plugins whose `hooks/hooks.json` lists
   TypeScript `modules`). This API is early access and may change between releases.
 - Built and tested with Claude Code **2.1.289**.
+- Windows, macOS or Linux. It reads only workflow files at paths Claude Code gives it, through
+  Claude Code, so nothing OS-specific is needed.
 - Nothing else. There is no build step and no npm install.
 
 ## Install
